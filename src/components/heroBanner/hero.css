@@ -1,0 +1,10 @@
+.hero_section {
+    width: 100%; /* Make the container take up all available width */
+    overflow: hidden; /* Ensure that the container expands to contain its floated children */
+}
+
+.hero_image {
+    width: 100%; /* Make the image fill the entire width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove extra space beneath the image */
+}

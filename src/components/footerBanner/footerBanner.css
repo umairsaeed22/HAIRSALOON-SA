@@ -1,0 +1,13 @@
+.footer_banner_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    width: 100%;
+}

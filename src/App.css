@@ -1,0 +1,24 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Inter (woff2) sans-serif';
+    }
+    
+    body {
+    background-color: var(--color-bg);
+    }
+    
+    a {
+    color: unset;
+    text-decoration: none;
+    }
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('./fonts/Ubuntu-Regular.ttf') format('truetype'); /* Adjust the path and format as needed */
+    font-weight: normal;
+    font-style: normal;
+  }

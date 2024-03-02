@@ -1,0 +1,142 @@
+.card-upper-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+    font-family: Ubuntu;
+    padding: 10px 0;
+}
+
+.card-wrapper {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin: 10px 1px;
+}
+
+.card-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 24px 0px 54px;
+    gap: 0px;
+}
+
+.swiper-title {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.card-details div {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.card-header p {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card-header h4 {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.appointment-details {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Styled prev/next buttons */
+
+.swiper-button-prev, .swiper-button-next {
+	color: #000;
+	top: calc((100% - 44px)/2) !important;
+	background: #D9D9D9;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	box-shadow: 0px 0px 5px 1px #bbb;
+	transition: 0.2s;
+	opacity: 1;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+	opacity: 1;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.swiper-button-prev{
+	left: 5px;
+	padding-right: 3px;
+    /* position: absolute; */
+}
+
+ .swiper-button-next{
+	right: 5px;
+	padding-left: 3px;
+    /* position: absolute; */
+}
+
+/* Fixes so you don't click through disabled arrow and enter a product page */
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+	pointer-events: auto;
+}
+ .swiper-button-prev::after,  .swiper-button-next::after {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none!important;
+    letter-spacing: 0;
+    text-transform: none;
+    font-variant: initial;
+    line-height: 1;
+}
+
+.swiper-button-next img {
+    position: relative;
+    top: 1px;
+    right: -6px;
+}
+
+.swiper-button-prev img {
+    position: relative;
+    top: 1px;
+    right: -9px;
+}
+
+.swiper-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.swiper-buttons {
+    display: flex;
+    gap: 20px;
+}
