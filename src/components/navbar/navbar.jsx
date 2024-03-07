@@ -23,13 +23,13 @@ const MyNavbar = () => {
 
         {/* Second Container */}
         <div className='location_container position-relative me-3 '>
-          <span className="navlocation_icon position-absolute top-50 start-0 translate-middle-y me-2"><CiLocationOn /></span>
+          <span className="navlocation_icon position-absolute translate-middle-y me-2"><CiLocationOn /></span>
           <Form.Control type="text" placeholder="Location" className='input_field ps-4' />
         </div>
 
         {/* Third Container */}
         <div className='search_container position-relative me-3 col-lg-4'>
-          <span className="search_icon position-absolute top-50 start-0 translate-middle-y me-2"><CiSearch /></span>
+          <span className="search_icon position-absolute translate-middle-y me-2"><CiSearch /></span>
           <Form.Control type="text" placeholder="Search for services" className='input_field ps-4' />
         </div>
 

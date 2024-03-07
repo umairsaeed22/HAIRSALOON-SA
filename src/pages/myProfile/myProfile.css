@@ -1,0 +1,12 @@
+.color-cont {
+    background-color: #1B3B36;
+     height: 45vh;
+}
+
+@media (max-width: 576px) {
+    .color-cont {
+        height: 17vh;
+        position: relative;
+        top: -130px;
+    }
+}
